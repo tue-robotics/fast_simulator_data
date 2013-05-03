@@ -1,0 +1,32 @@
+<model name="table">
+    <box>
+        <xyz>-0.5 -0.25 0.4</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.1 0.1 0.8</size>
+    </box>
+
+    <box>
+        <xyz>0.5 -0.25 0.4</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.1 0.1 0.8</size>
+    </box>
+
+    <box>
+        <xyz>-0.5 0.25 0.4</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.1 0.1 0.8</size>
+    </box>
+
+    <box>
+        <xyz>0.5 0.25 0.4</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.1 0.1 0.8</size>
+    </box>
+
+    <box>
+        <xyz>0 0 0.8</xyz>
+        <rpy>0.0 0.0 0.5</rpy>
+        <size>1.2 0.7 0.1</size>
+    </box>
+
+</model>
