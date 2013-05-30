@@ -2,7 +2,7 @@
 
     <heightMap>
         <topic>/fast_simulator/map</topic>
-        <height>0.5</height>
+        <height>2.0</height>
     </heightMap>
 
     <box>
