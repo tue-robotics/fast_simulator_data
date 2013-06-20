@@ -24,6 +24,54 @@
         <height>1.0</height>
     </heightMap>
 
+    <!-- Table 1 -->
+    <box>
+        <xyz>0.052 -1.403 0.75</xyz>
+        <size>1.20 0.80 0.02</size>
+    </box>   
+
+    <!-- Table 2 -->
+    <box>
+        <xyz>1.941 -1.403 0.75</xyz>
+        <size>1.20 0.80 0.02</size>
+    </box>   
+
+    <!-- PICO case -->
+    <box>
+        <xyz>0.50 0.917 0.225</xyz>
+        <size>1.30 0.50 0.45</size>
+    </box>
+
+    <!-- Flight case -->
+    <box>
+        <xyz>0.137 2.095 0.275</xyz>
+        <size>1.58 0.62 0.55</size>
+    </box> 
+
+    <!-- Bed cabinet -->
+    <box>
+        <xyz>3.750 -2.288 0.36</xyz>
+        <size>0.44 0.48 0.72</size>
+    </box>
+
+    <!-- Bed -->
+    <box>
+        <xyz>5.0 -1.52 0.34</xyz>
+        <size>0.90 2.05 0.68</size>
+    </box>
+
+    <!-- Ikea cabinet -->
+    <box>
+        <xyz>4.8405 2.0975 0.39</xyz>
+        <size>0.779 0.421 0.78</size>
+    </box>   
+
+    <!-- Lockers -->
+    <!--box>
+        <xyz>2.95 −0.6255 0.5</xyz>
+        <size>0.42 3.773 1.0</size>
+    </box-->
+
     <!-- ground plane -->
     <box>
         <xyz>0 0 -0.1</xyz>
