@@ -25,6 +25,24 @@
         <size>0.642 2.989 0.95</size>
     </box>
 
+    <!-- Fridge -->
+    <box>
+        <xyz>0.795 -5.02 0.875</xyz>
+        <size>0.69 0.92 1.75</size>
+    </box>
+
+    <!-- Trashbin -->
+    <box>
+        <xyz>3.297 -8.183 0.25</xyz>
+        <size>0.3 0.3 0.5</size>
+    </box>    
+
+    <!-- Kitchen cabinet -->
+    <box>
+        <xyz>2.705 -8.1965 1.1</xyz>
+        <size>0.59 0.57 2.2</size>
+    </box>
+
     <!-- Bedroom cabinet -->
     <box>
         <xyz>6.078 -6.841 0.2</xyz>
@@ -53,6 +71,12 @@
     <box>
         <xyz>8.943 -4.0365 0.25</xyz>
         <size>2.20 0.50 0.50</size>
+    </box>
+
+    <!-- TV -->
+    <box>
+        <xyz>8.943 -4.0365 0.86</xyz>
+        <size>0.95 0.10 0.62</size>
     </box>
 
     <!-- Couch table -->
