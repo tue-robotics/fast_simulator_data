@@ -13,6 +13,78 @@
         <size>100 100 0.2</size>
     </box>
 
+    <!-- Kitchen table -->
+    <box>
+        <xyz>3.105 -6.331 0.38</xyz>
+        <size>1.80 0.78 0.76</size>
+    </box>
+
+    <!-- Kitchen countertop -->
+    <box>
+        <xyz>0.654 -6.9815 0.475</xyz>
+        <size>0.642 2.989 0.95</size>
+    </box>
+
+    <!-- Bedroom cabinet -->
+    <box>
+        <xyz>6.078 -6.841 0.2</xyz>
+        <size>0.406 1.214 0.4</size>  <!-- only height -->
+    </box>
+
+    <!-- Nightstand 1 -->
+    <box>
+        <xyz>10.223 -5.419 0.2</xyz>
+        <size>0.38 0.376 0.4</size>  <!-- only height -->
+    </box>
+
+    <!-- Nightstand 2 -->
+    <box>
+        <xyz>10.2305 -7.6205 0.2</xyz>
+        <size>0.411 0.377 0.4</size>  <!-- only height -->
+    </box>
+
+    <!-- Bed -->
+    <box>
+        <xyz>9.3415 -6.519 0.225</xyz>
+        <size>2.261 1.806 0.45</size>  <!-- only height -->
+    </box>
+
+    <!-- TV cabinet -->
+    <box>
+        <xyz>8.943 -4.0365 0.25</xyz>
+        <size>2.20 0.50 0.50</size>
+    </box>
+
+    <!-- Couch table -->
+    <box>
+        <xyz>8.718 -1.2 0.175</xyz>
+        <size>0.70 1.20 0.35</size>
+    </box>
+
+    <!-- Armchair -->
+    <box>
+        <xyz>8.748 0.7515 0.225</xyz>
+        <size>0.74 0.583 0.45</size>  <!-- only height -->
+    </box>
+
+    <!-- Couch -->
+    <box>
+        <xyz>9.919 -1.112 0.255</xyz>
+        <size>0.716 1.966 0.51</size>  <!-- only height -->
+    </box>
+
+    <!-- Large table -->
+    <box>
+        <xyz>5.7805 -1.4685 0.38</xyz>
+        <size>0.98 2.40 0.76</size>
+    </box>
+
+    <!-- Bookcase -->
+    <box>
+        <xyz>3.5335 -1.428 0.6</xyz>
+        <size>0.32 1.00 1.20</size>
+    </box>
+
 </model>
 
 <model name="rgo2013">
