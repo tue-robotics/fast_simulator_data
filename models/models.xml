@@ -279,6 +279,14 @@
     </box>
 </model>
 
+<model name="seven_up">
+    <box>
+        <xyz>0 0 0</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.07 0.07 0.12</size>
+    </box>
+</model>
+
 <model name="tea_pack">
     <box>
         <xyz>0 0 0</xyz>
