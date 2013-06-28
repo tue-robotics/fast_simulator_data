@@ -305,7 +305,7 @@
 
 <model name="bowl">
     <heightMap>
-        <xyz>0 0 0.675</xyz>
+        <xyz>-0.095 -0.095 0.0475</xyz>
         <resolution>0.01</resolution>
         <image>laser/bowl.pgm</image>
         <height>0.135</height>
