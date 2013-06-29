@@ -351,3 +351,12 @@
         <height>0.135</height>
     </heightMap>
 </model>
+
+<model name="trash_bin">
+    <heightMap>
+        <xyz>-0.14 -0.14 0</xyz>
+        <resolution>0.01</resolution>
+        <image>laser/trash_bin.pgm</image>
+        <height>0.40</height>
+    </heightMap>
+</model>
