@@ -98,10 +98,10 @@
     </box>
 
     <!-- Large table -->
-    <box>
+    <!--box>
         <xyz>5.7805 -1.4685 0.38</xyz>
         <size>0.98 2.40 0.76</size>
-    </box>
+    </box-->
 
     <!-- Bookcase -->
     <box>
@@ -359,4 +359,11 @@
         <image>laser/trash_bin.pgm</image>
         <height>0.40</height>
     </heightMap>
+</model>
+
+<model name="dinner_table">
+    <box>
+        <xyz>0 0 0.73</xyz>
+        <size>0.98 2.40 0.06</size>
+    </box>
 </model>
