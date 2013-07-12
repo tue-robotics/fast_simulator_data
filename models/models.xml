@@ -137,18 +137,6 @@
         <height>1.0</height>
     </heightMap>
 
-    <!-- Table 1 -->
-    <box>
-        <xyz>0.052 -1.403 0.75</xyz>
-        <size>1.20 0.80 0.02</size>
-    </box>   
-
-    <!-- Table 2 -->
-    <box>
-        <xyz>1.941 -1.403 0.75</xyz>
-        <size>1.20 0.80 0.02</size>
-    </box>   
-
     <!-- PICO case -->
     <box>
         <xyz>0.50 0.917 0.225</xyz>
@@ -165,12 +153,6 @@
     <box>
         <xyz>3.750 -2.288 0.36</xyz>
         <size>0.44 0.48 0.72</size>
-    </box>
-
-    <!-- Bed -->
-    <box>
-        <xyz>5.0 -1.52 0.34</xyz>
-        <size>0.90 2.05 0.68</size>
     </box>
 
     <!-- Ikea cabinet -->
@@ -366,4 +348,38 @@
         <xyz>0 0 0.73</xyz>
         <size>0.98 2.40 0.06</size>
     </box>
+</model>
+
+<model name="hospital_bed">
+    <box>
+        <xyz>0 0 0.34</xyz>
+        <size>0.90 2.05 0.68</size>
+    </box>
+</model>
+
+<model name="table_120x80x76">
+    <box>
+        <xyz>0 0 0.75</xyz>
+        <size>1.20 0.80 0.02</size>
+    </box> 
+
+    <box>
+        <xyz>-0.50 -0.30 0.37</xyz>
+        <size>0.05 0.05 0.74</size>
+    </box> 
+
+    <box>
+        <xyz>0.50 -0.30 0.37</xyz>
+        <size>0.05 0.05 0.74</size>
+    </box> 
+
+    <box>
+        <xyz>-0.50 0.30 0.37</xyz>
+        <size>0.05 0.05 0.74</size>
+    </box> 
+
+    <box>
+        <xyz>0.50 0.30 0.37</xyz>
+        <size>0.05 0.05 0.74</size>
+    </box> 
 </model>
