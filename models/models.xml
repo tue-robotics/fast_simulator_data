@@ -357,6 +357,13 @@
     </box>
 </model>
 
+<model name="humanlike_box">
+    <box>
+        <xyz>0 0 0.9</xyz>
+        <size>0.75 0.5 1.80</size>
+    </box>
+</model>
+
 <model name="table_120x80x76">
     <box>
         <xyz>0 0 0.75</xyz>
