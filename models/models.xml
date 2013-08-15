@@ -363,6 +363,13 @@
         <size>0.75 0.5 1.80</size>
     </box>
 </model>
+<model name="humanlike_box2">
+    <box>
+        <xyz>0 0 0.9</xyz>
+        <rpy>0 0 1.57</rpy>
+        <size>0.75 0.5 1.80</size>
+    </box>
+</model>
 
 <model name="table_120x80x76">
     <box>
