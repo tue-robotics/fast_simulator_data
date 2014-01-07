@@ -14,4 +14,4 @@ if __name__ == "__main__":
     bed = W.add_object("bed-1", "hospital_bed", 5.0, -1.52, 0)
 
     coke1 = W.add_object("coke-1", "coke", 1.941, -1.403, 0.82)
-    qr_code1 = W.add_object("qr-code-1", "qr_code", 0.37, -0.41, 1.0)
+    #qr_code1 = W.add_object("qr-code-1", "qr_code", 0.37, -0.41, 1.0)
