@@ -1,3 +1,21 @@
+<model name="robotics_testlab_B">
+
+    <heightMap>
+        <xyz>-1.625 -5.475 0</xyz>
+        <resolution>0.025</resolution>
+        <image>worlds/robotics_testlab_B/pgm</image>
+        <height>1.0</height>
+    </heightMap>
+
+    <!-- ground plane -->
+    <box>
+        <xyz>0 0 -0.1</xyz>
+        <size>100 100 0.2</size>
+    </box>
+
+</model>
+
+
 <model name="rgo2014">
 
     <heightMap>
