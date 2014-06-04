@@ -405,6 +405,15 @@
     </box>
 </model>
 
+<model name="person">
+    <heightMap>
+        <xyz>-0.3 -0.3 0</xyz>
+        <resolution>0.02</resolution>
+        <image>laser/body.pgm</image>
+        <height>1.80</height>
+    </heightMap>
+</model>
+
 <model name="table_120x80x76">
     <box>
         <xyz>0 0 0.75</xyz>
