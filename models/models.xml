@@ -4,7 +4,7 @@
         <xyz>-1.625 -5.475 0</xyz>
         <resolution>0.025</resolution>
         <image>worlds/robotics_testlab_B/pgm</image>
-        <height>0.8</height>
+        <height>2.0</height>
     </heightMap>
 
     <!-- ground plane -->
