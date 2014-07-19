@@ -33,6 +33,23 @@
 
 </model>
 
+<model name="rwc2014">
+
+    <heightMap>
+        <xyz>-1.8334000 -0.645000 0.000000</xyz>
+        <resolution>0.025</resolution>
+        <image>worlds/rwc2014/pgm</image>
+        <height>2.2</height>
+    </heightMap>
+
+    <!-- ground plane -->
+    <box>
+        <xyz>0 0 -0.1</xyz>
+        <size>100 100 0.2</size>
+    </box>
+
+</model>
+
 <model name="rwc2013">
 
     <heightMap>
