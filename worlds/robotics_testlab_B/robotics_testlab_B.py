@@ -14,6 +14,10 @@ if __name__ == "__main__":
     W.add_object("supply_table", "table_120x80x76", 2.16, -4.16, 0)
     W.add_object("desk", "table_120x80x76", 1.150, -2.752, 0, 0, 0, 1.57)
     W.add_object("desk-2", "table_120x80x76", 1.150, -3.958, 0, 0, 0, 1.57)
+    
+    W.add_object("coke-1", "coke", 1.394, 0.237, 0.9)
+
+    W.add_object("ed-test-table", "table_120x80x76", -5, 0, 0, 0, 0, 1)
 
     #bed = W.add_object("bed-1", "hospital_bed", 5.0, -1.52, 0)
 

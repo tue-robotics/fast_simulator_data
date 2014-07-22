@@ -1,3 +1,35 @@
+<model name="rwc2014.noodles">
+    <box>
+        <xyz>0 0 0</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.07 0.07 0.12</size>
+    </box>
+</model>
+
+<model name="rwc2014.biscuits">
+    <box>
+        <xyz>0 0 0</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.10 0.07 0.12</size>
+    </box>
+</model>
+
+<model name="rwc2014.milk">
+    <box>
+        <xyz>0 0 0</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.07 0.07 0.12</size>
+    </box>
+</model>
+
+<model name="rwc2014.pringles">
+    <box>
+        <xyz>0 0 0</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.07 0.07 0.25</size>
+    </box>
+</model>
+
 <model name="robotics_testlab_B">
 
     <heightMap>
@@ -303,14 +335,6 @@
         <size>1 0.1 1</size>
     </box>
 
-</model>
-
-<model name="coke">
-    <box>
-        <xyz>0 0 0</xyz>
-        <rpy>0.0 0.0 0.0</rpy>
-        <size>0.07 0.07 0.12</size>
-    </box>
 </model>
 
 <model name="coke">
