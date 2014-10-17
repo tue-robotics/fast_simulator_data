@@ -276,6 +276,14 @@
 
 </model>
 
+<model name="hanging-table">
+    <box>
+        <xyz>0 0 0.75</xyz>
+        <rpy>0.0 0.0 0.0</rpy>
+        <size>0.7 0.7 0.1</size>
+    </box>
+</model>
+
 <model name="table">
     <box>
         <xyz>-0.5 -0.25 0.35</xyz>
@@ -433,12 +441,20 @@
     </box>
 </model>
 
+<model name="human">
+    <box>
+        <xyz>0 0 0.9</xyz>
+        <size>0.5 0.5 1.80</size>
+    </box>
+</model>
+
 <model name="humanlike_box">
     <box>
         <xyz>0 0 0.9</xyz>
         <size>0.75 0.5 1.80</size>
     </box>
 </model>
+
 <model name="humanlike_box2">
     <box>
         <xyz>0 0 0.9</xyz>
@@ -480,4 +496,21 @@
         <xyz>0.50 0.30 0.37</xyz>
         <size>0.05 0.05 0.74</size>
     </box> 
+</model>
+
+<model name="wonderland">
+
+    <heightMap>
+        <xyz>-1.5 -5 0</xyz>
+        <resolution>0.1</resolution>
+        <image>worlds/wonderland/pgm</image>
+        <height>2.0</height>
+    </heightMap>
+
+    <!-- ground plane -->
+    <box>
+        <xyz>0 0 -0.1</xyz>
+        <size>100 100 0.2</size>
+    </box>
+
 </model>
