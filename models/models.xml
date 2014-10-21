@@ -471,6 +471,13 @@
     </heightMap>
 </model>
 
+<model name="door">
+    <box>
+        <xyz>0 0 1.0</xyz>
+        <size>0.1 2.0 2.0</size>
+    </box>
+</model>
+
 <model name="table_120x80x76">
     <box>
         <xyz>0 0 0.75</xyz>

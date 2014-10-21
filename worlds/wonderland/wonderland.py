@@ -39,3 +39,4 @@ if __name__ == "__main__":
     W.add_object("office_table13", "table", 11, 18, 0, 0, 0)
 
     W.add_object("office_table15", "hanging-table", 5.9, 25, 0, 0, 0)
+    W.add_object("bisc", "rwc2014.biscuits", 9.2,4.2, 0,0)
