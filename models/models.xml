@@ -30,6 +30,23 @@
     </box>
 </model>
 
+<model name="robotics_testlabs">
+
+    <heightMap>
+        <xyz>-13.8 -14.2 0</xyz>
+        <resolution>0.025</resolution>
+        <image>worlds/robotics_testlabs/pgm</image>
+        <height>2.0</height>
+    </heightMap>
+
+    <!-- ground plane -->
+    <box>
+        <xyz>0 0 -0.1</xyz>
+        <size>100 100 0.2</size>
+    </box>
+
+</model>
+
 <model name="robotics_testlab_B">
 
     <heightMap>
