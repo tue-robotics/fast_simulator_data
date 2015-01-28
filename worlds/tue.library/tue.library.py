@@ -1,0 +1,13 @@
+#!/usr/bin/python
+import roslib; roslib.load_manifest('fast_simulator')
+import rospy
+
+from fast_simulator import client
+
+if __name__ == "__main__":
+    rospy.init_node('fast_simulator_object_spawner')
+
+    W = client.SimWorld()
+
+    # W.add_object("coke-1", "coke",  0.856, 3.671, 0.8)
+
