@@ -41,19 +41,19 @@ if __name__ == "__main__":
     W.add_object("coke31", "coke", 0.765, 7.03, 1.11)
     '''
     
-    ## Put stuff (open challenge)
-    # Right_bookcase
-    W.add_object("coke11", "sim-coke", 0.765, 6.83, 0.40)
-    W.add_object("coke12", "sim-coke", 0.765, 6.63, 0.75)
-    W.add_object("coke13", "sim-coke", 0.765, 7.03, 0.75)
+    # ## Put stuff (open challenge)
+    # # Right_bookcase
+    # W.add_object("coke11", "sim-coke", 0.765, 6.83, 0.40)
+    # W.add_object("coke12", "sim-coke", 0.765, 6.63, 0.75)
+    # W.add_object("coke13", "sim-coke", 0.765, 7.03, 0.75)
     
-    # Dinnertable
-    W.add_object("coke21", "sim-coke", 3.3, 6.7, 0.75)
-    W.add_object("coke22", "sim-coke", 3.7, 6.7, 0.75)
+    # # Dinnertable
+    # W.add_object("coke21", "sim-coke", 3.3, 6.7, 0.75)
+    # W.add_object("coke22", "sim-coke", 3.7, 6.7, 0.75)
     
-    # Counter
-    W.add_object("coke31", "sim-coke", 2.05, 4.2, 0.75)
-    W.add_object("coke32", "sim-coke", 2.05, 4.6, 0.75)
+    # # Counter
+    # W.add_object("coke31", "sim-coke", 2.05, 4.2, 0.75)
+    # W.add_object("coke32", "sim-coke", 2.05, 4.6, 0.75)
     
     
 
