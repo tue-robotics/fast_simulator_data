@@ -42,10 +42,10 @@ if __name__ == "__main__":
     '''
     
     # Put stuff on the dinner table
-    W.add_object("coke_d1", "coke",     7.500, 0.4, 0.9)
-    W.add_object("coke_d2", "tea_pack", 7.400, 0.6, 0.9)
-    W.add_object("coke_d3", "marmalade",    7.350, 0.8, 0.9)
-    W.add_object("coke_d4", "cif",      7.400, 1.0, 0.9)
+    #W.add_object("coke_d1", "coke",     7.500, 0.4, 0.9)
+    #W.add_object("coke_d2", "tea_pack", 7.400, 0.6, 0.9)
+    #W.add_object("coke_d3", "marmalade",    7.350, 0.8, 0.9)
+    #W.add_object("coke_d4", "cif",      7.400, 1.0, 0.9)
 
     # ## Put stuff (open challenge)
     # # Right_bookcase
