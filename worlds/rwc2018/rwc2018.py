@@ -33,6 +33,18 @@ if __name__ == "__main__":
     W.add_object("coke-15", "sim-coke", -4.0, 2.33, 0.805)
     W.add_object("coke-16", "sim-coke", -4.5, 2.33, 0.805)
 
+    #cabinet
+    W.add_object("coke-17", "sim-coke", -1.25, 0.3, 0.46)
+    W.add_object("coke-18", "sim-coke", -1.45, 0.3, 0.46)
+    W.add_object("coke-19", "sim-coke", -1.65, 0.3, 0.46)
+    W.add_object("coke-20", "sim-coke", -1.25, 0.3, 0.76)
+    W.add_object("coke-21", "sim-coke", -1.45, 0.3, 0.76)
+    W.add_object("coke-22", "sim-coke", -1.65, 0.3, 0.76)
+    W.add_object("coke-23", "sim-coke", -1.25, 0.3, 1.00)
+    W.add_object("coke-24", "sim-coke", -1.45, 0.3, 1.00)
+    W.add_object("coke-25", "sim-coke", -1.65, 0.3, 1.00)
+
+
     # # balcony_table
     # W.add_object("coke-7", "sim-coke",  0.00, -7.45, 0.71)
     # W.add_object("coke-8", "sim-coke", 0.1725, -7.525, 0.71)
