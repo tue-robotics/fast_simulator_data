@@ -24,8 +24,11 @@ if __name__ == "__main__":
     W.add_object("coke-7", "sim-coke",  3.90, 4.15, 1.04)
 
     # cabinet
-    W.add_object("coke-8", "sim-coke",  2.00, -1.22, 0.755)
-    W.add_object("coke-9", "sim-coke",  2.30, -1.22, 0.755)
-    W.add_object("coke-10", "sim-coke",  2.60, -1.22, 0.755)
+    W.add_object("coke-8", "sim-coke",  0.20, 3.1, 0.8)
+    W.add_object("coke-9", "sim-coke",  0.20, 3.5, 0.8)
+    W.add_object("coke-10", "sim-coke",  0.20, 3.1, 0.5)
+    W.add_object("coke-11", "sim-coke",  0.20, 3.5, 0.5)
+    W.add_object("coke-12", "sim-coke",  0.20, 3.1, 1.1)
+    W.add_object("coke-13", "sim-coke",  0.20, 3.5, 1.1)
 
     W.add_object("person-1", "loy", 6.00, 7.00, 0.0)
