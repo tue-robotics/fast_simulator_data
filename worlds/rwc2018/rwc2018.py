@@ -22,7 +22,17 @@ if __name__ == "__main__":
     # storage_table
     W.add_object("coke-9", "sim-coke",  -3.0, 5.9, 0.52)
     W.add_object("coke-10", "sim-coke",  -3.0, 5.6, 0.52)
-    #
+
+    # counter
+    W.add_object("coke-11", "sim-coke", -5.2, 4.5, 1.04)
+    W.add_object("coke-12", "sim-coke", -5.7, 4.5, 1.04)
+    W.add_object("coke-13", "sim-coke", -6.2, 4.5, 1.04)
+
+    # dining_table
+    W.add_object("coke-14", "sim-coke", -4.0, 1.9, 0.805)
+    W.add_object("coke-15", "sim-coke", -4.0, 2.33, 0.805)
+    W.add_object("coke-16", "sim-coke", -4.5, 2.33, 0.805)
+
     # # balcony_table
     # W.add_object("coke-7", "sim-coke",  0.00, -7.45, 0.71)
     # W.add_object("coke-8", "sim-coke", 0.1725, -7.525, 0.71)
