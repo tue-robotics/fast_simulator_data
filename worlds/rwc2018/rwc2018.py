@@ -20,8 +20,8 @@ if __name__ == "__main__":
     W.add_object("coke-8", "sim-coke", -2.75, 6.7, 1.47)
 
     # storage_table
-    W.add_object("coke-9", "sim-coke",  -3.0, 5.9, 0.52)
-    W.add_object("coke-10", "sim-coke",  -3.0, 5.6, 0.52)
+    W.add_object("coke-9", "sim-coke",  -3.6, 7.05, 0.52)
+    W.add_object("coke-10", "sim-coke",  -3.8, 7.05, 0.52)
 
     # counter
     W.add_object("coke-11", "sim-coke", -5.2, 4.5, 1.04)
