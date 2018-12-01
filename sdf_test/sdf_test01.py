@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import rospy
 
-from rospkg import RosPack
+import os
 from gazebo_msgs.srv import SpawnModel
 from geometry_msgs.msg import Pose
 
@@ -13,8 +13,8 @@ if __name__ == "__main__":
     initial_pose.position.y = 1
     initial_pose.position.z = 1
 
-    model_path = RosPack().get_path('ed_object_models')
-    model_name = '/models/test_sdf/heightmap_walls'
+    model_path = os.getenv("ED_MODEL_PATH")
+    model_name = '/test_sdf/heightmap_walls'
 
     with open(model_path + model_name + '/model.sdf', 'r') as f:
         sdff = f.read()
