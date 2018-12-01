@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import rospy
 
+from rospkg import RosPack
 from gazebo_msgs.srv import SpawnModel
 from geometry_msgs.msg import Pose
 
@@ -12,9 +13,11 @@ if __name__ == "__main__":
     initial_pose.position.y = 1
     initial_pose.position.z = 1
 
-    f = open('/home/kwinvdv/ros/kinetic/system/src/ed_object_models/models/test_sdf/heightmap_walls/model.sdf', 'r')
-    sdff = f.read()
-    f.close()
+    model_path = RosPack().get_path('ed_object_models')
+    model_name = '/models/test_sdf/heightmap_walls'
+
+    with open(model_path + model_name + '/model.sdf', 'r') as f:
+        sdff = f.read()
 
     rospy.wait_for_service('gazebo/spawn_sdf_model')
     spawn_model_prox = rospy.ServiceProxy('gazebo/spawn_sdf_model', SpawnModel)
