@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import rospy
 
-import os
+from os import getenv
 from gazebo_msgs.srv import SpawnModel
 from geometry_msgs.msg import Pose
 
@@ -13,7 +13,7 @@ if __name__ == "__main__":
     initial_pose.position.y = 1
     initial_pose.position.z = 1
 
-    model_path = os.getenv("ED_MODEL_PATH")
+    model_path = getenv("ED_MODEL_PATH")
     model_name = '/test_sdf/heightmap_walls'
 
     with open(model_path + model_name + '/model.sdf', 'r') as f:
