@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 import rospy
 import yaml
 
@@ -13,7 +13,7 @@ if __name__ == "__main__":
 
     # Load yaml with list of objects that need to be loaded
     package_path = RosPack().get_path('fast_simulator_data')
-    with open(package_path + "/worlds/robotics_testlabs/robotics_testlabs", 'r') as f:
+    with open(package_path + "/worlds/robotics_testlabs/robotics_testlabs.yaml", 'r') as f:
         data = yaml.safe_load(f)
 
     # Iterate over objects and spawn
