@@ -1,8 +1,7 @@
-#!/usr/bin/python
-import yaml
+#!/usr/bin/env python
 import rospy
+import yaml
 
-from os import getenv
 from rospkg import RosPack
 from fast_simulator import client
 
