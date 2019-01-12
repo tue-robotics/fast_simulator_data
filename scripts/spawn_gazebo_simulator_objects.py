@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 import rospy
 import yaml
+import os
+import glob
 
-from os.path import expanduser
 from rospkg import RosPack
 from gazebo_msgs.srv import SpawnModel
 from geometry_msgs.msg import Pose
@@ -20,8 +21,8 @@ if __name__ == "__main__":
     with open(package_path + "/sdf_test/objects_list_test2.yaml", 'r') as f:
         data = yaml.safe_load(f)
 
-    # Get path to gazebo_models
-    model_path = expanduser("~") + '/data/gazebo_models/'
+    # Get paths to $GAZEBO_MODEL_PATH
+    model_paths = os.environ['GAZEBO_MODEL_PATH'].split(os.pathsep)
 
     # Iterate over objects and spawn
     for sod in data:
@@ -31,8 +32,30 @@ if __name__ == "__main__":
         object_pose.position.y = sod["y"]
         object_pose.position.z = sod["z"]
 
-        # Load object sdf model
-        with open(model_path + sod["type"] + '/model.sdf', 'r') as f:
+        # Search for model folder in $GAZEBO_MODEL_PATH
+        for path in model_paths:
+            if os.path.isdir(path + '/' + sod["type"]):
+                model_path = path + '/' + sod["type"]
+
+        try:
+            model_path
+        except NameError:
+            print('Could not find model in GAZEBO_MODEL_PATH.')
+            break
+
+        # Search for sdf file
+        if os.path.isfile(model_path + '/model.sdf'):
+            sdf_model_path = model_path + '/model.sdf'
+        else:
+            sdf_model_path = sorted(glob.glob(model_path + '/*.sdf'))[-1]
+
+        try:
+            sdf_model_path
+        except NameError:
+            print('No sdf model found.')
+            break
+
+        with open(sdf_model_path, 'r') as f:
             sdf_file = f.read()
 
         # Spawn object
