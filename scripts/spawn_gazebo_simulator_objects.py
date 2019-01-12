@@ -63,4 +63,4 @@ if __name__ == '__main__':
             sdf_file = f.read()
 
         # Spawn object
-        spawn_model_prox(sod['id'], sdf_file, 'spawned_objects', object_pose, 'world'')
+        spawn_model_prox(sod['id'], sdf_file, 'spawned_objects', object_pose, 'world')
