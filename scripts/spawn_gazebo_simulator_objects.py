@@ -2,7 +2,7 @@
 import rospy
 import yaml
 
-from os import getenv
+from os.path import expanduser
 from rospkg import RosPack
 from gazebo_msgs.srv import SpawnModel
 from geometry_msgs.msg import Pose
@@ -17,11 +17,11 @@ if __name__ == "__main__":
 
     # Load yaml with list of objects that need to be loaded
     package_path = RosPack().get_path('fast_simulator_data')
-    with open(package_path + "/sdf_test/objects_list_test.yaml", 'r') as f:
+    with open(package_path + "/sdf_test/objects_list_test2.yaml", 'r') as f:
         data = yaml.safe_load(f)
 
-    # Get path to ed_object_models/models
-    model_path = getenv("ED_MODEL_PATH")
+    # Get path to gazebo_models
+    model_path = expanduser("~") + '/data/gazebo_models/'
 
     # Iterate over objects and spawn
     for sod in data:

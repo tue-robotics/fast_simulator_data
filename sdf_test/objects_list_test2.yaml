@@ -1,0 +1,7 @@
+- {id: "coke-1", type: "coke_can", x: 3.196, y: 4.652, z: 0.87}
+- {id: "coke-2", type: "coke_can", x: 3.214, y: 4.050, z: 0.87}
+- {id: "coke-3", type: "coke_can", x: 3.463, y: 4.353, z: 0.87}
+- {id: "coke-4", type: "coke_can", x: 1.056, y: 3.471, z: 0.8 }
+- {id: "coke-5", type: "coke_can", x: 0.676, y: 3.559, z: 0.8 }
+- {id: "coke-6", type: "coke_can", x: 0.303, y: 3.413, z: 0.8 }
+- {id: "coke-7", type: "coke_can", x: 0.868, y: 1.955, z: 0.87}
