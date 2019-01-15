@@ -33,31 +33,30 @@ if __name__ == '__main__':
         object_pose.position.z = sod['z']
 
         # Search for model folder in $GAZEBO_MODEL_PATH
+        model_path = None
         for path in model_paths:
             if os.path.isdir(path + '/' + sod['type']):
                 model_path = path + '/' + sod['type']
 
         # Return error when folder could not be found
-        try:
-            model_path
-        except NameError:
-            print('Could not find model in GAZEBO_MODEL_PATH.')
-            break
+        if model_path is None:
+            print('Warning: Could not find model with the specified name in GAZEBO_MODEL_PATH.')
+            continue
 
         # Search for sdf file
+        sdf_model_path = None
         if os.path.isfile(model_path + '/model.sdf'):
             sdf_model_path = model_path + '/model.sdf'
         else:
-            # If is no model.sdf and there are multiple sdf files, return the last
-            # alphabetically which is assumed to be for the highest sdf version.
-            sdf_model_path = sorted(glob.glob(model_path + '/*.sdf'))[-1]
-
-        # Return error when no sdf file could be found
-        try:
-            sdf_model_path
-        except NameError:
-            print('No sdf model found.')
-            break
+            # If is no model.sdf exists and there are one or more sdf files, return
+            # the last alphabetically which is assumed to be for the highest sdf version.
+            sdf_list = sorted(glob.glob(model_path + '/*.sdf'))
+            if sdf_list:
+                sdf_model_path = sdf_list[-1]
+            else:
+                # Return error when no sdf file could be found
+                print('Warning: No sdf file was found.')
+                continue
 
         with open(sdf_model_path, 'r') as f:
             sdf_file = f.read()
