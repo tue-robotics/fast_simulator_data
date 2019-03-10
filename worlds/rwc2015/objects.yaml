@@ -1,0 +1,13 @@
+- {id: door, type: coke, x: 3.0, y: 3.5, z: 0.3}
+- {id: a1a, type: coke, x: 4.0, y: 5.0, z: 0.3}
+- {id: a1b, type: coke, x: 4.0, y: 5.5, z: 0.3}
+- {id: a2a, type: coke, x: 4.0, y: 7.5, z: 0.3}
+- {id: a2b, type: coke, x: 4.0, y: 8.0, z: 0.3}
+- {id: a3a, type: coke, x: 6.0, y: 1.0, z: 0.3}
+- {id: a3b, type: coke, x: 6.0, y: 1.5, z: 0.3}
+- {id: coke11, type: coke, x: 0.765, y: 6.63, z: 0.4}
+- {id: coke21, type: coke, x: 0.765, y: 6.83, z: 0.4}
+- {id: coke11, type: coke, x: 0.765, y: 6.63, z: 0.75}
+- {id: coke31, type: coke, x: 0.765, y: 7.03, z: 0.75}
+- {id: coke21, type: coke, x: 0.765, y: 6.83, z: 1.11}
+- {id: coke31, type: coke, x: 0.765, y: 7.03, z: 1.11}

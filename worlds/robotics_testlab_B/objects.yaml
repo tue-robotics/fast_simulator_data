@@ -1,0 +1,9 @@
+- {id: dinner_table, rx: 0, ry: 0, rz: 1.57, type: table_120x80x76, x: 3.174, y: -0.523,
+    z: 0}
+- {id: workbench, rx: 0, ry: 0, rz: 1.57, type: table_120x80x76, x: 2.12, y: -3.01,
+    z: 0}
+- {id: supply_table, type: table_120x80x76, x: 2.16, y: -4.16, z: 0}
+- {id: desk, rx: 0, ry: 0, rz: 1.57, type: table_120x80x76, x: 1.15, y: -2.752, z: 0}
+- {id: desk-2, rx: 0, ry: 0, rz: 1.57, type: table_120x80x76, x: 1.15, y: -3.958, z: 0}
+- {id: coke-1, type: coke, x: 1.394, y: 0.237, z: 0.9}
+- {id: ed-test-table, rx: 0, ry: 0, rz: 1, type: table_120x80x76, x: -5, y: 0, z: 0}

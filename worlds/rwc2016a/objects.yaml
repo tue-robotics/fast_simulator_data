@@ -1,0 +1,6 @@
+- {id: coke-1, type: sim-coke, x: 10.069, y: 3.745, z: 0.8}
+- {id: coke-2, type: sim-coke, x: 14.351, y: 5.626, z: 0.8}
+- {id: coke-3, type: sim-coke, x: 15.609, y: 3.31, z: 0.8}
+- {id: coke-4, type: sim-coke, x: 12.971, y: 0.785, z: 0.5}
+- {id: coke-5, type: sim-coke, x: 4.396, y: -1.169, z: 0.8}
+- {id: coke-6, type: sim-coke, x: 0.253, y: 4.592, z: 0.8}

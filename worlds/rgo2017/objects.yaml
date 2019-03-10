@@ -1,0 +1,11 @@
+- {id: coke-1, type: sim-coke, x: 1.65, y: 0.9, z: 0.8}
+- {id: coke-2, type: sim-coke, x: 1.85, y: 0.9, z: 0.8}
+- {id: coke-3, type: sim-coke, x: 1.65, y: 1.4, z: 0.8}
+- {id: coke-4, type: sim-coke, x: 1.65, y: 1.15, z: 0.8}
+- {id: coke-5, type: sim-coke, x: 3.0, y: 4.15, z: 1.04}
+- {id: coke-6, type: sim-coke, x: 3.45, y: 4.15, z: 1.04}
+- {id: coke-7, type: sim-coke, x: 3.9, y: 4.15, z: 1.04}
+- {id: coke-8, type: sim-coke, x: 2.0, y: -1.22, z: 0.755}
+- {id: coke-9, type: sim-coke, x: 2.3, y: -1.22, z: 0.755}
+- {id: coke-10, type: sim-coke, x: 2.6, y: -1.22, z: 0.755}
+- {id: person-1, type: loy, x: 6.0, y: 7.0, z: 0.0}
