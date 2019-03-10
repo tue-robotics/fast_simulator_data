@@ -1,10 +1,11 @@
 #!/usr/bin/python
 import os
-import string
 import yaml
 
+from rospkg import RosPack
 
-def parseStr(x):
+
+def parse_str(x):
     try:
         return int(x)
     except ValueError:
@@ -14,10 +15,10 @@ def parseStr(x):
             return x
 
 
-parentdir = "../worlds"
+worlds_dir = os.path.join(RosPack().get_path('fast_simulator_data'), "worlds")
 
-for subdir in sorted(os.listdir(parentdir)):
-    dir_path = os.path.join(parentdir, subdir)
+for subdir in sorted(os.listdir(worlds_dir)):
+    dir_path = os.path.join(worlds_dir, subdir)
     if not os.path.isdir(dir_path):
         continue
 
@@ -39,7 +40,7 @@ for subdir in sorted(os.listdir(parentdir)):
         object_lines = []
         for line in lines:
             if line.startswith("W.add_object"):
-                line2 = map(parseStr, line.lstrip("W.add_object(").rstrip(")").split(","))
+                line2 = map(parse_str, line.lstrip("W.add_object(").rstrip(")").split(","))
                 object_lines.append([x.strip().strip('"') if isinstance(x, str) else x for x in line2])
 
         yaml_list = []
