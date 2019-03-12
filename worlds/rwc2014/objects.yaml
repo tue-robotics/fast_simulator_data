@@ -1,0 +1,4 @@
+- {id: milk, type: rwc2014.milk, x: 8.0, y: 5.0, z: 0.82}
+- {id: pringles, type: garlic_sauce, x: 8.0, y: 5.5, z: 0.82}
+- {id: noodles, type: rwc2014.noodles, x: 8.0, y: 6.0, z: 0.82}
+- {id: biscuits, type: rwc2014.biscuits, x: 8.0, y: 6.5, z: 0.82}
