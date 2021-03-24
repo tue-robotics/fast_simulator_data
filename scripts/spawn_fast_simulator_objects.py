@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python
+
 import os
 import sys
 import yaml
@@ -35,7 +36,7 @@ if __name__ == "__main__":
     # Iterate over objects and spawn
     if isinstance(data, list):
         for sod in data:
-            print sod
+            print(sod)
             W.add_object(**sod)
     elif isinstance(data, dict):
         W.add_object(**data)
